@@ -1,0 +1,105 @@
+
+/* Fonts */
+.nfont {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: var(--font-body-color);
+}
+.mfont {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+}
+.mdfont {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+}
+.hfont {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--font-body-color);
+}
+
+
+
+.subhead {
+    font-size: 23px;
+}
+
+/* Alignment */
+.al-c {
+    text-align: center;
+}
+.al-e {
+    text-align: end;
+}
+.al-l {
+    text-align: left;
+}
+
+
+
+/* Colors */
+.white {
+    color: #fff;
+}
+.faintwyt {
+    color: var(--font-body-color);
+}
+.yellow {
+    color: var(--primary-color);
+}
+.fwhite {
+    color: var(--just-white);
+    /* opacity: 70%; */
+}
+
+
+/* section margins */
+.sec2 {
+    padding: 40px 0;
+}
+
+.sec3t {
+    padding-top: 50px;
+}
+.sec3b {
+    padding-bottom: 50px;
+}
+
+
+.btn1 {
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px 5px;
+    font-family: var(--body-font);
+    border-radius: 5px;
+    background-color:var(--primary-color);
+    text-align: center;
+}
+.btn2 {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: 5px 5px;
+    font-family: var(--body-font);
+    border-radius: 5px;
+    background-color:transparent;
+    border: 1px solid var(--primary-color);
+    text-align: center;
+}
+.main-btn .btn1 i {
+ padding-left: 10px;
+}
+
+.c-title {
+    font-family: var(--case-title);
+    color: var( --case-t-color);
+    font-size: 36px;
+}
